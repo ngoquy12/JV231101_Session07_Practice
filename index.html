@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook clone</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <ul class="header-list-item">
+          <i class="icon-facebook fa-brands fa-square-facebook"></i>
+          <div class="search-area">
+            <input type="text" class="input" placeholder="Search..." />
+            <i class="icon-search fa-solid fa-magnifying-glass"></i>
+          </div>
+        </ul>
+        <ul class="header-list-item">
+          <img
+            class="avatar"
+            src="https://facebookninja.vn/wp-content/uploads/2023/06/anh-dai-dien-mac-dinh-zalo.jpg"
+            alt=""
+          />
+          <span class="text-bold">Ngọ Văn Quý</span>
+          <div class="tripper"></div>
+          <span class="text-bold">Create</span>
+          <div class="tripper"></div>
+          <span class="text-bold">Home</span>
+          <i
+            class="cursor-pointer text-20 text-blue fa-brands fa-facebook-messenger"
+          ></i>
+          <i class="cursor-pointer text-20 text-blue fa-solid fa-bell"></i>
+          <i class="cursor-pointer text-20 text-gray fa-solid fa-user-plus"></i>
+          <i
+            class="cursor-pointer text-20 text-gray fa-solid fa-circle-info"
+          ></i>
+          <i
+            class="cursor-pointer text-20 text-gray fa-solid fa-caret-down"
+          ></i>
+        </ul>
+      </header>
+      <div class="main">
+        <menu class="main-left">
+          <ul class="menu-list-item">
+            <li class="menu-item">
+              <i class="fa-solid fa-newspaper"></i>
+              New feed
+            </li>
+            <li class="menu-item active">
+              <i class="fa-regular fa-envelope"></i>
+              Messengers
+            </li>
+            <li class="menu-item">
+              <i class="fa-solid fa-tv"></i>
+              Watch
+            </li>
+            <li class="menu-item">
+              <i class="fa-solid fa-store"></i>
+              Marketplace
+            </li>
+          </ul>
+        </menu>
+        <!-- Main middle start -->
+        <main class="main-middle">
+          <div class="write-status">
+            <div class="write-status-header">
+              <img
+                class="avatar"
+                src="https://www.phanmemninja.com/wp-content/uploads/2023/07/anh-dai-dien-zalo-mac-dinh-11.jpg"
+                alt=""
+              />
+              <input
+                type="text"
+                class="input border-none flex-1"
+                placeholder="Bạn đang nghĩ gì..."
+              />
+            </div>
+            <div class="border-max"></div>
+            <div class="write-status-body">
+              <div>
+                <i class="fa-regular fa-image text-blue"></i>
+                Photo / Image
+              </div>
+              <div>
+                <i class="text-red fa-solid fa-user-plus"></i>
+                Tag friends
+              </div>
+              <div>
+                <i class="text-yellow fa-solid fa-face-smile"></i>
+                Feeling / Activity
+              </div>
+              <div>
+                <i class="fa-solid fa-ellipsis"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="post-friend">
+            <div class="post-friend-header">
+              <div class="info-user">
+                <img
+                  class="avatar"
+                  src="https://www.phanmemninja.com/wp-content/uploads/2023/07/anh-dai-dien-zalo-mac-dinh-11.jpg"
+                  alt=""
+                />
+                <div class="post-time">
+                  <span>Ngọ Văn Quý</span>
+                  <p>10 phút trước</p>
+                </div>
+              </div>
+              <i class="fa-solid fa-ellipsis"></i>
+            </div>
+            <div class="post-content">
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Deserunt, sed. Enim inventore aliquid illum nostrum, quae dolor
+                quo quis doloremque veritatis. Maxime unde recusandae libero
+                veritatis! Minima sapiente vitae totam!
+              </p>
+            </div>
+            <div class="post-image">
+              <img
+                src="https://img.pikbest.com/origin/09/41/85/916pIkbEsTzRC.jpg!w700wp"
+                alt=""
+              />
+              <img
+                src="https://img.pikbest.com/origin/09/41/85/916pIkbEsTzRC.jpg!w700wp"
+                alt=""
+              />
+              <img
+                src="https://img.pikbest.com/origin/09/41/85/916pIkbEsTzRC.jpg!w700wp"
+                alt=""
+              />
+            </div>
+            <ul class="interact">
+              <li><i class="fa-regular fa-thumbs-up"></i> 147</li>
+              <li><i class="fa-regular fa-comment"></i> 147</li>
+              <li><i class="fa-solid fa-share"></i> 147</li>
+            </ul>
+          </div>
+          <div class="post-friend">
+            <div class="post-friend-header">
+              <div class="info-user">
+                <img
+                  class="avatar"
+                  src="https://www.phanmemninja.com/wp-content/uploads/2023/07/anh-dai-dien-zalo-mac-dinh-11.jpg"
+                  alt=""
+                />
+                <div class="post-time">
+                  <span>Ngọ Văn Quý</span>
+                  <p>10 phút trước</p>
+                </div>
+              </div>
+              <i class="fa-solid fa-ellipsis"></i>
+            </div>
+            <div class="post-content">
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Deserunt, sed. Enim inventore aliquid illum nostrum, quae dolor
+                quo quis doloremque veritatis. Maxime unde recusandae libero
+                veritatis! Minima sapiente vitae totam!
+              </p>
+            </div>
+            <div class="post-image">
+              <img
+                src="https://img.pikbest.com/origin/09/41/85/916pIkbEsTzRC.jpg!w700wp"
+                alt=""
+              />
+              <img
+                src="https://img.pikbest.com/origin/09/41/85/916pIkbEsTzRC.jpg!w700wp"
+                alt=""
+              />
+              <img
+                src="https://img.pikbest.com/origin/09/41/85/916pIkbEsTzRC.jpg!w700wp"
+                alt=""
+              />
+            </div>
+            <ul class="interact">
+              <li><i class="fa-regular fa-thumbs-up"></i> 147</li>
+              <li><i class="fa-regular fa-comment"></i> 147</li>
+              <li><i class="fa-solid fa-share"></i> 147</li>
+            </ul>
+          </div>
+          <div class="post-friend">
+            <div class="post-friend-header">
+              <div class="info-user">
+                <img
+                  class="avatar"
+                  src="https://www.phanmemninja.com/wp-content/uploads/2023/07/anh-dai-dien-zalo-mac-dinh-11.jpg"
+                  alt=""
+                />
+                <div class="post-time">
+                  <span>Ngọ Văn Quý</span>
+                  <p>10 phút trước</p>
+                </div>
+              </div>
+              <i class="fa-solid fa-ellipsis"></i>
+            </div>
+            <div class="post-content">
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Deserunt, sed. Enim inventore aliquid illum nostrum, quae dolor
+                quo quis doloremque veritatis. Maxime unde recusandae libero
+                veritatis! Minima sapiente vitae totam!
+              </p>
+            </div>
+            <div class="post-image">
+              <img
+                src="https://img.pikbest.com/origin/09/41/85/916pIkbEsTzRC.jpg!w700wp"
+                alt=""
+              />
+              <img
+                src="https://img.pikbest.com/origin/09/41/85/916pIkbEsTzRC.jpg!w700wp"
+                alt=""
+              />
+              <img
+                src="https://img.pikbest.com/origin/09/41/85/916pIkbEsTzRC.jpg!w700wp"
+                alt=""
+              />
+            </div>
+            <ul class="interact">
+              <li><i class="fa-regular fa-thumbs-up"></i> 147</li>
+              <li><i class="fa-regular fa-comment"></i> 147</li>
+              <li><i class="fa-solid fa-share"></i> 147</li>
+            </ul>
+          </div>
+          <div class="post-friend">
+            <div class="post-friend-header">
+              <div class="info-user">
+                <img
+                  class="avatar"
+                  src="https://www.phanmemninja.com/wp-content/uploads/2023/07/anh-dai-dien-zalo-mac-dinh-11.jpg"
+                  alt=""
+                />
+                <div class="post-time">
+                  <span>Ngọ Văn Quý</span>
+                  <p>10 phút trước</p>
+                </div>
+              </div>
+              <i class="fa-solid fa-ellipsis"></i>
+            </div>
+            <div class="post-content">
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Deserunt, sed. Enim inventore aliquid illum nostrum, quae dolor
+                quo quis doloremque veritatis. Maxime unde recusandae libero
+                veritatis! Minima sapiente vitae totam!
+              </p>
+            </div>
+            <div class="post-image">
+              <img
+                src="https://img.pikbest.com/origin/09/41/85/916pIkbEsTzRC.jpg!w700wp"
+                alt=""
+              />
+              <img
+                src="https://img.pikbest.com/origin/09/41/85/916pIkbEsTzRC.jpg!w700wp"
+                alt=""
+              />
+              <img
+                src="https://img.pikbest.com/origin/09/41/85/916pIkbEsTzRC.jpg!w700wp"
+                alt=""
+              />
+            </div>
+            <ul class="interact">
+              <li><i class="fa-regular fa-thumbs-up"></i> 147</li>
+              <li><i class="fa-regular fa-comment"></i> 147</li>
+              <li><i class="fa-solid fa-share"></i> 147</li>
+            </ul>
+          </div>
+          <div class="post-friend">
+            <div class="post-friend-header">
+              <div class="info-user">
+                <img
+                  class="avatar"
+                  src="https://www.phanmemninja.com/wp-content/uploads/2023/07/anh-dai-dien-zalo-mac-dinh-11.jpg"
+                  alt=""
+                />
+                <div class="post-time">
+                  <span>Ngọ Văn Quý</span>
+                  <p>10 phút trước</p>
+                </div>
+              </div>
+              <i class="fa-solid fa-ellipsis"></i>
+            </div>
+            <div class="post-content">
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Deserunt, sed. Enim inventore aliquid illum nostrum, quae dolor
+                quo quis doloremque veritatis. Maxime unde recusandae libero
+                veritatis! Minima sapiente vitae totam!
+              </p>
+            </div>
+            <div class="post-image">
+              <img
+                src="https://img.pikbest.com/origin/09/41/85/916pIkbEsTzRC.jpg!w700wp"
+                alt=""
+              />
+              <img
+                src="https://img.pikbest.com/origin/09/41/85/916pIkbEsTzRC.jpg!w700wp"
+                alt=""
+              />
+              <img
+                src="https://img.pikbest.com/origin/09/41/85/916pIkbEsTzRC.jpg!w700wp"
+                alt=""
+              />
+            </div>
+            <ul class="interact">
+              <li><i class="fa-regular fa-thumbs-up"></i> 147</li>
+              <li><i class="fa-regular fa-comment"></i> 147</li>
+              <li><i class="fa-solid fa-share"></i> 147</li>
+            </ul>
+          </div>
+          <div class="post-friend">
+            <div class="post-friend-header">
+              <div class="info-user">
+                <img
+                  class="avatar"
+                  src="https://www.phanmemninja.com/wp-content/uploads/2023/07/anh-dai-dien-zalo-mac-dinh-11.jpg"
+                  alt=""
+                />
+                <div class="post-time">
+                  <span>Ngọ Văn Quý</span>
+                  <p>10 phút trước</p>
+                </div>
+              </div>
+              <i class="fa-solid fa-ellipsis"></i>
+            </div>
+            <div class="post-content">
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Deserunt, sed. Enim inventore aliquid illum nostrum, quae dolor
+                quo quis doloremque veritatis. Maxime unde recusandae libero
+                veritatis! Minima sapiente vitae totam!
+              </p>
+            </div>
+            <div class="post-image">
+              <img
+                src="https://img.pikbest.com/origin/09/41/85/916pIkbEsTzRC.jpg!w700wp"
+                alt=""
+              />
+              <img
+                src="https://img.pikbest.com/origin/09/41/85/916pIkbEsTzRC.jpg!w700wp"
+                alt=""
+              />
+              <img
+                src="https://img.pikbest.com/origin/09/41/85/916pIkbEsTzRC.jpg!w700wp"
+                alt=""
+              />
+            </div>
+            <ul class="interact">
+              <li><i class="fa-regular fa-thumbs-up"></i> 147</li>
+              <li><i class="fa-regular fa-comment"></i> 147</li>
+              <li><i class="fa-solid fa-share"></i> 147</li>
+            </ul>
+          </div>
+        </main>
+        <!-- Main middle end -->
+
+        <!-- Main right start -->
+        <article class="main-right">
+          <div class="main-right-story">
+            <div class="story-header">
+              <span>Stores</span>
+              <span>See all</span>
+            </div>
+            <div class="story-body">
+              <div class="add-image">+</div>
+              <img
+                class="story-image"
+                src="https://www.phanmemninja.com/wp-content/uploads/2023/07/anh-dai-dien-zalo-mac-dinh-11.jpg"
+                alt=""
+              />
+              <img
+                class="story-image"
+                src="https://www.phanmemninja.com/wp-content/uploads/2023/07/anh-dai-dien-zalo-mac-dinh-11.jpg"
+                alt=""
+              />
+              <img
+                class="story-image"
+                src="https://www.phanmemninja.com/wp-content/uploads/2023/07/anh-dai-dien-zalo-mac-dinh-11.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="main-right-recently">
+            <div class="recently-header">Recently Viewed</div>
+            <div class="recently-body">
+              <div class="image-price">
+                <img
+                  class="image-product"
+                  src="https://cdn.nhathuoclongchau.com.vn/unsafe/800x0/filters:quality(95)/https://cms-prod.s3-sgn09.fptcloud.com/son_duong_co_mau_co_lam_tham_moi_khong_luu_y_khi_su_dung_san_pham_1_1_e14037431b.jpg"
+                  alt=""
+                />
+                <span class="price">72.000 VND</span>
+              </div>
+              <div class="image-price">
+                <img
+                  class="image-product"
+                  src="https://cdn.nhathuoclongchau.com.vn/unsafe/800x0/filters:quality(95)/https://cms-prod.s3-sgn09.fptcloud.com/son_duong_co_mau_co_lam_tham_moi_khong_luu_y_khi_su_dung_san_pham_1_1_e14037431b.jpg"
+                  alt=""
+                />
+                <span class="price">72.000 VND</span>
+              </div>
+              <div class="image-price">
+                <img
+                  class="image-product"
+                  src="https://cdn.nhathuoclongchau.com.vn/unsafe/800x0/filters:quality(95)/https://cms-prod.s3-sgn09.fptcloud.com/son_duong_co_mau_co_lam_tham_moi_khong_luu_y_khi_su_dung_san_pham_1_1_e14037431b.jpg"
+                  alt=""
+                />
+                <span class="price">72.000 VND</span>
+              </div>
+              <div class="image-price">
+                <img
+                  class="image-product"
+                  src="https://cdn.nhathuoclongchau.com.vn/unsafe/800x0/filters:quality(95)/https://cms-prod.s3-sgn09.fptcloud.com/son_duong_co_mau_co_lam_tham_moi_khong_luu_y_khi_su_dung_san_pham_1_1_e14037431b.jpg"
+                  alt=""
+                />
+                <span class="price">72.000 VND</span>
+              </div>
+            </div>
+          </div>
+          <div class="main-right-responsitory">responsitory</div>
+        </article>
+        <!-- Main right end -->
+      </div>
+    </div>
+  </body>
+</html>
